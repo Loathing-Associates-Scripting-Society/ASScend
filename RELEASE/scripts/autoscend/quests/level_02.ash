@@ -103,6 +103,7 @@ boolean L2_mosquito()
 		// Arboreal Respite choice adventure has a delay of 5 adventures.
 		return false;
 	}
+	
 	auto_log_info("Trying to find a mosquito.", "blue");
 	if(autoAdv($location[The Spooky Forest]))
 	{
